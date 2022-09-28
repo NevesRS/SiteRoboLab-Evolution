@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RoboLab - Restinga</title>
+    <link href="styles/style.css" rel="stylesheet" />
+
+    <script>
+        function funcao(){
+            let objeto = document.getElementById("container");
+            objeto.style.border = "black 1px solid"
+        }
+
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div id="imagem-nav">
+        <li>Imagem(Logo)</li>
+      </div>
+      <div id="menu-nav">
+        <li><a href="#home">Início</li></a>
+        <li><a href="#projetos">Projetos</li></a>
+        <li><a href="#home">Laboratório</li></a>
+        <li><a href="#home">Notícias</li></a>
+      </div>
+    </nav>
+    <section id="home">
+      <h1>ROBOLAB</h1>
+      <h2>Um projeto por IFRS - Campus Restinga</h2>
+      <h5>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam.
+      </h5>
+      <button>Saiba Mais</button>
+    </section>
+    <h1 id="title-projetos">PROJETOS</h1>  
+    <section id="projetos">
+      
+      <img src="images/arrowL.png" id="arrow">
+      <div id="projeto-selecionado">
+        <div id="container-projeto">
+          <div id="top-container-projetos">
+          <h2 id="nome-robo">Nome do robô</h2>
+            <h3 id="title-robo">Titulo</h3>
+          </div>
+          <div id="infos-projeto">
+          <img src="/images/fundo.png">
+            <ul id="caracteristica-robo">Características
+              <li>Teste</li>
+              <li>Teste</li>
+              <li>Teste</li>
+              <li>Teste</li>
+              <li>Teste</li>
+            </ul>
+            <ul id="funcionalidades-robo">Funcionalidades
+              <li>Teste</li>
+              <li>Teste</li>
+              <li>Teste</li>
+              <li>Teste</li>
+              <li>Teste</li>
+            </ul> 
+            <ul id="competicoes-robo">Competições que participa
+              <li>Teste</li>
+              <li>Teste</li>
+              <li>Teste</li>
+              <li>Teste</li>
+              <li>Teste</li>
+            </ul>
+            <ul id="manual-robo">Link para o manual
+              <li><a href="https://www.google.com" target="_blank">https://www.google.com</a></li>
+            </ul>
+          </div>
+          <div id="radio-btns">
+            <div class="custom-radio">
+              <input id="radio-1" name="question" value="1" type="radio">
+              <label for="radio-1"></label>
+            </div>
+            <div class="custom-radio">
+              <input id="radio-2" name="question" value="2" type="radio">
+              <label for="radio-2"></label>
+            </div>
+            <div class="custom-radio">
+              <input id="radio-3" name="question" value="3" type="radio">
+              <label for="radio-3"></label>
+            </div>
+            <div class="custom-radio">
+              <input id="radio-4" name="question" value="4" type="radio">
+              <label for="radio-4"></label>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <img src="images/arrowR.png" id="arrow">
+    </section>
+    
+
+  </body>
+</html>
