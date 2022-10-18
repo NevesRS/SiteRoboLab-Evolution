@@ -1,0 +1,377 @@
+elemento {
+  --font-h1: 26px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #17181d;
+  color: #FCD9B8;
+  height: 100vh;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+
+  list-style: none;
+  justify-content: space-around;
+  display: flex;
+
+  background-color: black;
+  color: white;
+
+  height: 60px;
+
+  margin-top: auto;
+}
+
+nav li {
+  margin: auto;
+}
+
+nav #imagem-nav {
+  display: flex;
+}
+
+nav #menu-nav {
+  display: flex;
+}
+
+nav #menu-nav li {
+  margin-left: 15%;
+}
+
+nav #menu-nav:last-child{
+  margin-right: 20%;
+}
+
+nav ul li a:hover {
+  cursor: pointer;
+}
+
+nav li a:hover{
+  color: #E09145;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+/* END NAV */
+
+/* HOME */
+
+.bg1 {
+  background-image: url(/images/bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 55%;
+  backdrop-filter: brightness(60%);
+}
+
+.home {
+  display: grid;
+  margin: 40px auto;
+  text-align: center;
+
+}
+
+.home h1 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 46px;
+}
+.home h2 {
+  margin-bottom: 15px;
+  font-size: 26px;
+}
+.home h5 {
+  margin: auto;
+
+  font-weight: 100;
+  font-size: 16px;
+  width: 500px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#container-imagens{
+  display: flex;
+}
+
+#arrow{
+  cursor: pointer;
+  margin: auto;
+  height: 1.8vw;
+}
+
+#apresentacao-trabalho{
+  font-size: 26px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#imagem-projetos{
+  margin: 30px auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#imagem-projetos img {
+  width: 20%;
+  border-radius: 30px;
+}
+
+/*END HOME*/
+
+.bg2 {
+  background-image: url(/images/bg2.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 765px;
+}
+
+#origem h1{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#origem {
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+span {
+  color: #E09145;
+  font-weight: 600;
+}
+span2{
+  font-size: 20px;
+}
+
+#container-fund{
+  width: 75%;
+  margin: 10% auto;
+  
+}
+
+#infos-fund {
+  background-color: #352f2b;
+  margin: auto;
+  width: 43%;
+  border-radius: 30px;
+  display: flex;
+  box-shadow: 20px 20px 80px #000000;
+}
+
+#container-fund h2{
+  text-align: left;
+  font-size: 26px
+}
+
+#aligned-container {
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+#aligned-container h3 {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+#container-fund img{
+  margin-left: 60px;
+  max-height: 160px;
+}
+
+/*METODOLOGIA*/
+
+#metodologia {
+  margin-top: 100px;
+  height: 90vh;
+  font-size: 30px;
+}
+
+#metodologia h1{
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+#infos-metodologia{
+  font-size: 24px;
+  margin: auto;
+  display: flex;
+  width: 85%;
+  text-align: justify;
+}
+
+#infos-metodologia h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#container-metodologia{
+  padding: 40px;
+}
+
+.bg3{
+  background-image: url(/images/fundoRoboLab.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 90%;
+  margin: auto;
+  border-radius: 30px;
+}
+
+/*LABORATÓRIO*/
+
+#laboratorio {
+  margin-top: 100px;
+  height: 90vh;
+  font-size: 30px;
+}
+
+#laboratorio h1{
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+#infos-laboratorio{
+  font-size: 24px;
+  margin: auto;
+  display: flex;
+  width: 85%;
+  text-align: justify;
+}
+
+#infos-laboratorio h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#container-laboratorio{
+  padding: 40px;
+}
+
+#box-image h3{
+  margin-left: 8%;
+  width: 80%;
+}
+
+.bg4{
+  background-image: url(/images/mapa2.png);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 90%;
+  margin: auto;
+  border-radius: 30px;
+}
+
+/*PROJETOS*/
+
+#projetos {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+#projetos #projeto {
+  margin: 15px auto;
+  width: 280px;
+  height: 300px;
+  background-color:#352f2b;
+  border-radius: 30px;
+}
+
+#projeto h4 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#projeto img{
+  display: flex;
+  margin: 25px auto;
+  width: 65%;
+  border-radius: 30px;
+}
+
+#projetos #projeto button{
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+
+button{
+  width: 35%;
+}
+
+button a{
+  margin: auto;
+  text-decoration: none;
+}
+
+a:link {
+  color: inherit;
+}
+
+/* link que foi visitado */
+a:visited {
+   color: inherit;
+}
+
+
+
+
+
+/*MEDIAS*/
+
+@media (max-width: 720px){
+#infos-metodologia{
+  width: auto;
+  flex-wrap: wrap;
+}
+nav #menu-nav li {
+  margin-left: 10%;
+}
+}
+
+@media (max-width: 1050px){
+  #infos-fund {
+    width: 500px;
+  }
+}
+
+@media (max-width: 900px){
+  nav #menu-nav:last-child{
+    margin-right: 30%;
+  }  
+  
+}
